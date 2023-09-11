@@ -9,7 +9,7 @@
 					"foreground": "#d2ff5e",
 					"leading_diamond": "\u256d\u2500\ue0b6",
 					"properties": {
-						"windows": "\uf871"
+						"windows": "\uDB80\uDF72"
 					},
 					"style": "diamond",
 					"template": " {{.Icon}}{{ if .WSL }} on \udb80\udf72{{ end }} ",
