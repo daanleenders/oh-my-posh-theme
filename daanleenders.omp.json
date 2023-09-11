@@ -12,7 +12,7 @@
 						"windows": "\uf871"
 					},
 					"style": "diamond",
-					"template": " {{.Icon}}{{ if .WSL }} on \uf871{{ end }} ",
+					"template": " {{.Icon}}{{ if .WSL }} on \udb80\udf72{{ end }} ",
 					"trailing_diamond": "\ue0b0",
 					"type": "os"
 				},
@@ -21,7 +21,7 @@
 					"foreground": "#011627",
 					"leading_diamond": "<transparent,background>\ue0b0</>",
 					"style": "diamond",
-					"template": " {{ if .SSHSession }}\\uf817 {{ end }}{{ .UserName }} ",
+					"template": " {{ if .SSHSession }}\\udb80\udf18 {{ end }}{{ .UserName }} ",
 					"trailing_diamond": "\ue0b0",
 					"type": "session"
 				},
@@ -39,7 +39,7 @@
 					"foreground": "#011627",
 					"leading_diamond": "<transparent,background>\ue0b0</>",
 					"properties": {
-						"home_icon": "\uf7db",
+						"home_icon": "\udb80\udedc",
 						"hide_root_location": false,
 						"max_depth": 4,
 						"style": "agnoster_short"
@@ -76,7 +76,7 @@
 					"properties": {
 						"fetch_package_manager": true,
 						"npm_icon": "<#cc3a3a>\ue71e</>",
-						"yarn_icon": "<#348cba>\uf61a</>"
+						"yarn_icon": "<#348cba>\uDB80\uDD1B</>"
 					},
 					"style": "diamond",
 					"template": " \ue781 {{ .Full }} ",
@@ -205,7 +205,7 @@
 					"foreground": "#ffffff",
 					"leading_diamond": "\ue0b2",
 					"style": "diamond",
-					"template": " \ufd31 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}} ",
+					"template": " \udb82\udc33 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}} ",
 					"trailing_diamond": "<transparent,background>\ue0b2</>",
 					"type": "kubectl"
 				},
@@ -239,7 +239,7 @@
 						"threshold": 0
 					},
 					"style": "diamond",
-					"template": "{{ .FormattedMs }} ",
+					"template": " {{ .FormattedMs }} ",
 					"trailing_diamond": "<transparent,background>\ue0b2</>",
 					"type": "executiontime"
 				},
@@ -251,7 +251,7 @@
 						"time_format": "15:04:05"
 					},
 					"style": "diamond",
-					"template": " \uf64f {{ .CurrentDate | date .Format }} ",
+					"template": " \uF017 {{ .CurrentDate | date .Format }} ",
 					"trailing_diamond": "\ue0b4",
 					"type": "time"
 				}
